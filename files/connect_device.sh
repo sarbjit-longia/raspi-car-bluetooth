@@ -19,7 +19,7 @@ function connect {
 }
 
 if [[ $(connected) ]]; then
-  echo ":-)"
+  echo "connected already" >> /home/dragon/bt.log
 else
-  connect()
+  connect
 
