@@ -22,3 +22,4 @@ echo "pair $1" | bluetoothctl
 echo "trust $1" | bluetoothctl
 echo "connect $1" | bluetoothctl
 
+echo $1 > ~/.mac_address
